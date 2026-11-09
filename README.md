@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "speckit-feature-lifecycle": {
-      "source": "mahardikalgw/speckit-feature-lifecycle",
+      "source": "mahardikalgw/ruby-speckit-feature-lifecycle",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/speckit-feature-lifecycle.git
-ln -s "$PWD/speckit-feature-lifecycle" .claude/skills/speckit-feature-lifecycle
+git clone git@github.com:mahardikalgw/ruby-speckit-feature-lifecycle.git
+ln -s "$PWD/ruby-speckit-feature-lifecycle" .claude/skills/speckit-feature-lifecycle
 ```
 
 ## When to activate
@@ -39,8 +39,9 @@ ln -s "$PWD/speckit-feature-lifecycle" .claude/skills/speckit-feature-lifecycle
 ## What's inside
 
 ```
-speckit-feature-lifecycle/
+ruby-speckit-feature-lifecycle/
   SKILL.md
+  bin/check-skill
   references/artefact-contract.md
   references/gates-and-ci.md
 ```
@@ -60,9 +61,9 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`merge-gate-parity`](https://github.com/mahardikalgw/merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
-- [`inertia-vertical-slice`](https://github.com/mahardikalgw/inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
-- [`scoped-authorization`](https://github.com/mahardikalgw/scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
+- [`merge-gate-parity`](https://github.com/mahardikalgw/ruby-merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
+- [`inertia-vertical-slice`](https://github.com/mahardikalgw/ruby-inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
+- [`scoped-authorization`](https://github.com/mahardikalgw/ruby-scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
 
 ## Licence
 
